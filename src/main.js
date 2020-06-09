@@ -5,6 +5,9 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import Loading from './components/common/Loading'
+Vue.component('Loading',Loading)
+
 new Vue({
   router,
   store,
